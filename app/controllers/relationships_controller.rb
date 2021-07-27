@@ -1,5 +1,5 @@
 class RelationshipsController < ApplicationController
-  gbefore_action :authenticate_user!
+  before_action :authenticate_user!
   before_action :set_user
 
  def create
